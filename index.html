@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to IPL 2025. Catch the latest news, teams, players, and schedule for the Indian Premier League 2025 season.">
+    <meta name="keywords" content="IPL 2025, Indian Premier League, Cricket, Teams, Players, Schedule">
+    <meta name="author" content="IPL 2025 Official">
+    <title>IPL 2025 Cricket</title>
+    <style>
+        /* Resetting margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.8;
+            padding: 0 20px;
+            
+            
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #111;
+            padding: 20px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+            border: 4px solid yellow;
+        }
+
+        .navbar .logo {
+            color: #ffcc00;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar .nav-links li {
+            margin-right: 30px;
+        }
+
+        .navbar .nav-links li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .navbar .nav-links li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Hamburger */
+        .navbar .hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 25px;
+        }
+
+        .navbar .hamburger .line {
+            height: 4px;
+            width: 100%;
+            background-color: white;
+        }
+
+        .navbar .hamburger.active .line:nth-child(1) {
+            transform: rotate(45deg);
+            position: relative;
+            top: 8px;
+        }
+
+        .navbar .hamburger.active .line:nth-child(2) {
+            opacity: 0;
+        }
+
+        .navbar .hamburger.active .line:nth-child(3) {
+            transform: rotate(-45deg);
+            position: relative;
+            bottom: 8px;
+        }
+
+        /* Main Section Styling */
+        section {
+            padding: 60px 20px;
+            text-align: left;
+            background-color: #fff;
+            color: #333;
+            margin-bottom: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: #ffcc00;
+        }
+
+        section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section ul li {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        section ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section ul li a:hover {
+            color: #333;
+        }
+
+        /* Mobile View */
+        @media (max-width: 768px) {
+            .navbar .nav-links {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+            }
+
+            .navbar .nav-links li {
+                margin: 15px 0;
+            }
+
+            .navbar .hamburger {
+                display: flex;
+            }
+
+            .navbar .nav-links.active {
+                display: flex;
+            }
+
+            section {
+                padding: 50px 15px;
+            }
+
+            section h2 {
+                font-size: 28px;
+            }
+
+            section p {
+                font-size: 16px;
+                border:4px solid yellow; 
+        }
+            }
+            
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">IPL 2025</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#teams">Teams</a></li>
+            <li><a href="#players">Players</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#champions">Champions</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to IPL 2025</h2>
+        <p>The Indian Premier League (IPL) 2025 is shaping up to be another exciting season of cricket in India. Founded in 2008 by the Board of Control for Cricket in India (BCCI), the IPL continues to be one of the most popular and commercially successful sports leagues in the world. With thrilling matches, star-studded rosters, and high-energy performances, IPL 2025 promises to bring the best of cricketing action. Fans can expect to see not only their favorite superstars but also emerging players making their mark on the global stage.</p>
+    </section>
+
+    <!-- Teams Section -->
+    <section id="teams">
+        <h2>IPL 2025 Teams</h2>
+        <p>In 2025, eight franchises will continue to compete in the IPL, representing cities from across India. These teams are backed by loyal fanbases and feature some of the best talent in world cricket. Here are the IPL teams for 2025:</p>
+        <ul>
+            <li><strong>Chennai Super Kings (CSK)</strong> – Captained by MS Dhoni, CSK is one of the most successful teams in IPL history, known for its consistency and strong team spirit.</li>
+            <li><strong>Delhi Capitals (DC)</strong> – A rising force in the IPL, DC features a blend of youthful energy and experience. Under Rishabh Pant's leadership, they are strong contenders for the title.</li>
+            <li><strong>Mumbai Indians (MI)</strong> – With five IPL titles, Mumbai Indians, led by Rohit Sharma, is the most successful team in IPL history, boasting an impressive lineup of players.</li>
+            <li><strong>Kolkata Knight Riders (KKR)</strong> – Known for their aggressive brand of cricket, KKR will continue to fight for the top spot in IPL 2025 under the leadership of Shreyas Iyer.</li>
+            <li><strong>Royal Challengers Bangalore (RCB)</strong> – Despite not winning the IPL yet, RCB remains one of the most popular franchises, with star players like Virat Kohli and Faf du Plessis.</li>
+            <li><strong>Rajasthan Royals (RR)</strong> – The inaugural IPL winners, Rajasthan Royals have a well-balanced squad, combining young talent and experienced international players.</li>
+            <li><strong>Sunrisers Hyderabad (SRH)</strong> – SRH is known for its powerful bowling attack, with Bhuvneshwar Kumar and Rashid Khan leading the charge.</li>
+            <li><strong>Punjab Kings (PBKS)</strong> – Featuring explosive players like Shikhar Dhawan and Kagiso Rabada, PBKS is always a team to watch in the tournament.</li>
+        </ul>
+    </section>
+
+    <!-- Champions Section -->
+    <section id="champions">
+        <h2>IPL Champions</h2>
+        <p>The IPL has seen many great champions over the years. Below is a list of all the IPL winners to date:</p>
+        <ul>
+            <li><strong>2008:</strong>Rajasthan Royals</li>
+            <li><strong>2009:</strong>Deccan Chargers </li>
+            <li><strong>2010:</strong>Chennai Super Kings</li>
+            <li><strong>2011:</strong>Chennai Super Kings</li>
+            <li><strong>2012:</strong>Kolkata Knight Riders</li>
+            <li><strong>2013:</strong>Mumbai Indians</li>
+            <li><strong>2014:</strong>Kolkata Knight Riders</li>
+            <li><strong>2015:</strong>Mumbai Indians</li>
+            <li><strong>2016:</strong>Sunrisers Hydrabad</li>
+            <li><strong>2017:</strong>Mumbai Indians</li>
+            <li><strong>2018:</strong>Chennai Super Kings</li>
+            <li><strong>2019:</strong>Mumbai Indians</li>
+            <li><strong>2020:</strong>Mumbai indians</li>
+            <li><strong>2021:</strong>Chennai Super Kings</li>
+            <li><strong>2022:</strong>Gujarat Titans</li>
+            <li><strong>2023:</strong>Chennai Super Kings</li>
+            <li><strong>2024:</strong>Kolkata Knight Riders</li>
+        </ul>
+    </section>
+
+    <!-- Players Section -->
+    <section id="players">
+        <h2>Famous IPL 2025 Players</h2>
+        <p>Many of the world's best cricketers participate in the IPL, and some players have become synonymous with the tournament's success. Here are a few key players to look out for in IPL 2025:</p>
+        <ul>
+            <li><strong>MS Dhoni</strong> – The Chennai Super Kings captain continues to inspire with his leadership and finishing abilities. Known for his calm under pressure, Dhoni remains a legend of IPL cricket.</li>
+            <li><strong>Virat Kohli</strong> – The former captain of India and Royal Challengers Bangalore, Kohli is an IPL icon. Despite a lean patch, he remains one of the most prolific run-scorers in the tournament.</li>
+            <li><strong>Rohit Sharma</strong> – The leader of Mumbai Indians, Rohit has led his team to five IPL titles. His ability to perform in crucial moments is what makes him one of the league's top players.</li>
+            <li><strong>Rishabh Pant</strong> – The Delhi Capitals captain and one of the most exciting young players in the world. Pant's aggressive batting and wicketkeeping skills make him a fan favorite.</li>
+            <li><strong>David Warner</strong> – A consistent performer for Sunrisers Hyderabad, Warner has been a stalwart at the top of the order for many seasons, accumulating runs season after season.</li>
+            <li><strong>AB de Villiers</strong> – A crowd favorite, de Villiers is known for his unorthodox batting style and ability to turn matches around in a flash. Though retired, his legacy lives on in RCB fans' hearts.</li>
+        </ul>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule">
+        <h2>IPL 2025 Schedule</h2>
+        <p>The IPL 2025 season promises to be packed with excitement. Matches will be played in various cities across India, and the competition will be fierce as teams battle for the coveted IPL title. Here are some of the key upcoming matches for IPL 2025:</p>
+        <ul>
+            <li><strong>March 29, 2025:</strong> Chennai Super Kings vs Delhi Capitals (Venue: Chennai)</li>
+            <li><strong>March 30, 2025:</strong> Mumbai Indians vs Kolkata Knight Riders (Venue: Mumbai)</li>
+            <li><strong>April 1, 2025:</strong> Royal Challengers Bangalore vs Punjab Kings (Venue: Bangalore)</li>
+            <li><strong>April 2, 2025:</strong> Rajasthan Royals vs Sunrisers Hyderabad (Venue: Jaipur)</li>
+            <li><strong>April 5, 2025:</strong> Delhi Capitals vs Sunrisers Hyderabad (Venue: Delhi)</li>
+            <li><strong>April 6, 2025:</strong> Kolkata Knight Riders vs Chennai Super Kings (Venue: Kolkata)</li>
+        </ul>
+    </section>
+<!-- Standings Section -->
+<section id="standings">
+    <h2>IPL 2025 Standings</h2>
+    <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; text-align: left;">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Team</th>
+                <th>Matches Played</th>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Net Run Rate (NRR)</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mumbai Indians</td>
+                <td>10</td>
+                <td>8</td>
+                <td>2</td>
+                <td>+1.05</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chennai Super Kings</td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+                <td>+0.90</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Kolkata Knight Riders</td>
+                <td>10</td>
+                <td>6</td>
+                <td>4</td>
+                <td>+0.75</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Royal Challengers Bangalore</td>
+                <td>10</td>
+                <td>5</td>
+                <td>5</td>
+                <td>+0.45</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- JavaScript for Hamburger Menu -->
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        // Toggle navbar for mobile
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active'); // Adding animation to the hamburger icon
+        });
+    </script>
+
+    <!-- IPL Footer Section - Thank You for Visiting -->
+    <div class="footer">
+        <div class="footer-content">
+            <h3>Thank You for Visiting!</h3>
+            <p>We appreciate your interest in the Indian Premier League (IPL). Stay tuned for more exciting updates, scores, and news about your favorite cricket teams!</p>
+            
+            <p>Feel free to explore:</p>
+            <ul>
+                <li><a href="https://www.iplt20.com" target="_blank">Official IPL Website</a></li>
+                <li><a href="https://www.iplt20.com/news" target="_blank">Latest IPL News</a></li>
+                <li><a href="https://www.iplt20.com/schedule" target="_blank">Upcoming Matches</a></li>
+                <li><a href="https://www.iplt20.com/teams" target="_blank">IPL Teams</a></li>
+            </ul>
+            
+            <p>Follow IPL on Social Media:</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/IPL" target="_blank" title="Facebook">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="width: 30px; height: 30px; margin-right: 10px;">
+                </a>
+                <a href="https://www.instagram.com/ipl/" target="_blank" title="Instagram">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" style="width: 30px; height: 30px;">
+                </a>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2025 IPL. All Rights Reserved.</p>
+            <p>For more information, visit <a href="https://www.iplt20.com" target="_blank">Official IPL Website</a></p>
+            
+        </div>
+    </div>
+
+    <!-- Style for the footer -->
+    <style>
+        .footer {
+            background-color: #004d99;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .footer h3 {
+            font-size: 2.5em;
+            color: #ffcc00;
+            margin-bottom: 15px;
+        }
+
+        .footer p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        .footer ul li {
+            margin: 5px 0;
+        }
+
+        .social-media {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .social-media a {
+            margin-right: 15px;
+        }
+
+        .footer-bottom {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+
+        .footer-bottom p {
+            margin: 0;
+        }
+    </style>
+</body>
+</html>
